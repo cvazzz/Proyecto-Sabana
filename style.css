@@ -1,0 +1,229 @@
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.seccion1{
+    background-image: url(/imagenes/Jirafa.jpg);
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height:1010px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Text1{
+    margin-right: 150px;
+}
+.Text1 h5{
+    color: rgb(236, 130, 55);
+    padding-left: 485px;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif
+}
+.Text1 h1{
+    color: white;
+    font-size: 36px;
+    padding-left: 365px;
+    font-family: 'Mulish', sans-serif
+}
+.Text1 p{
+    color: white;
+    padding-left: 150px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif
+}
+.boton1{
+    margin-right: 155px;
+    
+}
+.boton1 button {
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    background-color: rgb(248, 162, 4);
+    box-shadow: 2px 0px 5px 0px;
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+    cursor: pointer;
+    font-family: 'Mulish', sans-serif
+
+}
+
+.boton1 button:hover {
+    background-color: rgb(255, 200, 50);
+    transform: scale(1.05); /* Hace que el botón crezca ligeramente */
+    box-shadow: 4px 0px 10px 0px rgba(0, 0, 0, 0.2); /* Añade una sombra más grande */
+}
+/*====================================================*/
+.seccion2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 1010px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 200px;
+}
+
+.colum {
+    width: 302px;
+    margin: 20px;
+    text-align: center;
+   
+    background-color: rgb(255, 102, 0);
+    border-radius: 10px;
+    box-shadow: 10px 0px 35px rgba(254, 205, 89, 0.876);
+    
+}
+.colum:hover {
+    background-color: rgb(255, 153, 51); /* Cambia el color al pasar el cursor */
+    transform: scale(1.1); /* Agrandar el elemento en un 10% */
+    transition: background-color 0.2s ease, transform 0.2s ease; /* Agregar transiciones suaves */
+}
+
+.contenedorcolum {
+    display: flex;
+  margin-left: 70px;
+    margin-right: 70px;
+}
+
+.colum img {
+    width: 100%;
+    height: 190px;
+}
+
+/* Add borders to the icons */
+.colum i {
+    font-size: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    padding-top: 17px;
+    padding-bottom: 7px;
+    padding-left: 4.5px;
+    padding-right: 4.5px;
+    height: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+}
+.colum i:hover {
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+}
+.seccion2 h2{
+        
+        color: rgb(236, 130, 55);
+        font-size: 28px;
+        font-family: 'Mulish', sans-serif;
+        text-align: center
+    
+}
+.colum h3{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif
+}
+.colum h2{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    margin-top: -20px;
+}
+.colum{
+    background-color: rgb(255, 102, 0);
+}
+.parrafo2{
+    color:rgb(255, 102, 0) ;
+    text-align: center;
+}
+.colum p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.parrafo2{
+    font-family: 'Mulish', sans-serif; 
+    font-size: 18px;
+}
+/*===========================================*/
+.seccion3 {
+    background-image: url(/imagenes/campo\ \(1\)\ \(2\).jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+  }
+  
+  .seccion3::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor para la opacidad */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Asegúrate de que otros estilos no interfieran con la opacidad */
+  .seccion3 > * {
+    z-index: 1;
+  }
+.contenedorText{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height:500px;
+    padding-right: 300px;
+    font-family: 'Mulish', sans-serif;
+}
+.buttona {
+    display: inline-block;
+    background-color: rgb(255, 102, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0);
+     /* Agrega una transición suave para la animación */
+}
+.buttona a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+.buttona:hover {
+    transform: rotate(360deg) scale(1.2); /* Agrega rotación y escala en hover */
+    transition: 2s;
+    font-size: 20px;
+    background-color: #f19335;
+    
+
+}
+.imagen3{
+    display: flex;
+ width: 800px;
+ height: 400px;
+ padding-top: 70px;
+ padding-left: 200px;
+ padding-bottom: 100px;
+}
+.contenedorText p{
+    font-size: 18px;
+    color: white;
+}
+.contenedorText h3{
+    font-size: 25px;
+}
